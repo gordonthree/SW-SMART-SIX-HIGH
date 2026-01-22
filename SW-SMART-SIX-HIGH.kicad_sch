@@ -16955,7 +16955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SWLINK"
+		(property "Value" "SWD"
 			(at 402.59 147.3199 0)
 			(effects
 				(font
