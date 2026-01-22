@@ -1,5 +1,5 @@
 # Smart Six-way High Side Switch Node
-* STM32G071 Microcontroller on board
+* STM32G071 Microcontroller on board, 64 pins, 256k flash
 * Six BTS7002 Profet Smart Switches for high side loads, 
 * Each switch firmware limited to 15 amps
 * ACS712 on board to monitor total board current
