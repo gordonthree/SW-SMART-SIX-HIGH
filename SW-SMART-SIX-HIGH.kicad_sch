@@ -4443,8 +4443,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 11.43 0)
+			(property "Reference" "U2"
+				(at 2.1433 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4452,8 +4452,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS712xLCTR-30A"
-				(at 2.54 8.89 0)
+			(property "Value" "ACS71240LLCBTR-050B3"
+				(at 2.1433 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4481,7 +4481,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8"
+			(property "Description" "±50A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 26.4mV/A, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4650,10 +4650,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "FILTER"
+					(name "FAULT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8822,6 +8822,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 66.04) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6ac3ad-f87c-4c71-ba15-0842860a3f85")
+	)
+	(wire
+		(pts
 			(xy 123.19 19.05) (xy 123.19 22.86)
 		)
 		(stroke
@@ -9449,6 +9459,16 @@
 			(justify right bottom)
 		)
 		(uuid "72907ea1-7546-4bb6-b425-848eb7b55ded")
+	)
+	(label "IFAULT"
+		(at 219.71 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "799aa34d-4900-4544-87ea-d61489bf09d7")
 	)
 	(label "SWOUT2"
 		(at 106.68 166.37 0)
