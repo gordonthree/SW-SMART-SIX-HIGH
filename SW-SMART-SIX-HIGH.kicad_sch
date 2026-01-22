@@ -5855,6 +5855,12 @@
 		(uuid "148cb712-d045-419b-acee-545f5ecf69e4")
 	)
 	(junction
+		(at 109.22 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f7627b-65c6-409b-a15c-d329be64f802")
+	)
+	(junction
 		(at 220.98 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7187,6 +7193,16 @@
 			(type default)
 		)
 		(uuid "3b7ad5e8-e35b-461c-ba85-7d4e0dcd363a")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9e5309-13b2-4a6f-8c1b-530048f0e322")
 	)
 	(wire
 		(pts
@@ -10459,7 +10475,7 @@
 		(uuid "899c9563-55df-4127-8c4b-7936d4de09af")
 	)
 	(label "STAT2"
-		(at 303.53 120.65 0)
+		(at 289.56 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19712,6 +19728,71 @@
 			(project "SW-SMART-HIGH-LOW"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
 					(reference "RVDIV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 109.22 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2234121-c7f1-4772-9bdc-67a28d0cdddb")
+		(property "Reference" "#PWR044"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a789374-dc29-477a-8418-7c5ef252680b")
+		)
+		(instances
+			(project "SW-SMART-SIX-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
