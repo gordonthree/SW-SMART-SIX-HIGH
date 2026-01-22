@@ -189,6 +189,7 @@
       "track_widths": [
         0.0,
         0.1524,
+        0.2,
         0.254,
         0.305,
         0.406,
@@ -485,7 +486,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SW-SMART-HIGH-LOW.kicad_pro",
+    "filename": "SW-SMART-SIX-HIGH.kicad_pro",
     "version": 3
   },
   "net_settings": {
