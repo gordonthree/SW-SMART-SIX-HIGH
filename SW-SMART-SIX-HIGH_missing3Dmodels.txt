@@ -1,0 +1,10 @@
+### Missing 3D models - created on 2026-01-23 16:22
+### Printed by checking_3D_models plugin
+Board file: S:\Dev\KiCad\SW-SMART-SIX-HIGH\SW-SMART-SIX-HIGH.kicad_pcb
+3D missing models written to:
+S:\Dev\KiCad\SW-SMART-SIX-HIGH\SW-SMART-SIX-HIGH_missing3Dmodels.txt
+-------
+('J4', 'C:\\Dev\\Kicad\\share\\SamacSys_Parts.3dshapes\\VP0265840000G.stp')
+-------
+NUM of 3D missing models:1
+checked extensions ['.stp', '.step', '.stpZ']
