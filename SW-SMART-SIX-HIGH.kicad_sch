@@ -6087,6 +6087,17 @@
 		)
 		(uuid "2e5d663c-b1ae-41ad-a2ca-0a69b4bbafd7")
 	)
+	(text "6K2 for 2.5v out at 18v in\n4K7 for 3.3v out at 18v in"
+		(exclude_from_sim no)
+		(at 72.136 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73c6d57d-ee68-4e07-9852-b3b5dfa20ad6")
+	)
 	(text "Total board current monitor"
 		(exclude_from_sim no)
 		(at 248.412 65.786 0)
@@ -7869,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 110.49) (xy 408.94 110.49)
+			(xy 396.24 110.49) (xy 401.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8239,6 +8250,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 105.41) (xy 401.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a8dde9-344c-43e4-8084-5036854f1606")
+	)
+	(wire
+		(pts
 			(xy 107.95 224.79) (xy 107.95 228.6)
 		)
 		(stroke
@@ -8296,6 +8317,16 @@
 			(type default)
 		)
 		(uuid "6fbf2e23-a4ae-40fa-8043-a4cbd44e3d79")
+	)
+	(wire
+		(pts
+			(xy 396.24 93.98) (xy 396.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706d46fa-cc2a-4f5e-8fe2-2190b012874e")
 	)
 	(wire
 		(pts
@@ -8486,6 +8517,16 @@
 			(type default)
 		)
 		(uuid "7de23324-7a07-4390-a114-2bd0d5137ef9")
+	)
+	(wire
+		(pts
+			(xy 396.24 101.6) (xy 396.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df4a87b-d04a-4e4b-bf78-9e3d73541516")
 	)
 	(wire
 		(pts
@@ -10039,6 +10080,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 35.56) (xy 344.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c54af6-7632-416f-bc1b-c38cd16734de")
+	)
+	(wire
+		(pts
 			(xy 340.36 217.17) (xy 340.36 219.71)
 		)
 		(stroke
@@ -10116,6 +10167,16 @@
 			(type default)
 		)
 		(uuid "ece7930f-5fab-40ed-85d2-0ea240c9c2a0")
+	)
+	(wire
+		(pts
+			(xy 344.17 35.56) (xy 344.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5d4d97-280d-4006-9187-62f8ad2a4670")
 	)
 	(wire
 		(pts
@@ -10898,12 +10959,12 @@
 		(uuid "8660192e-e8d0-4137-95c3-47edeb454eb7")
 	)
 	(label "NRST"
-		(at 402.59 110.49 180)
+		(at 401.32 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "899c9563-55df-4127-8c4b-7936d4de09af")
 	)
@@ -11016,6 +11077,16 @@
 			(justify right bottom)
 		)
 		(uuid "b20c2c2a-6b50-4f94-a9b9-36e7af14e2ff")
+	)
+	(label "RTC"
+		(at 340.36 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6040c32-88a8-43ef-92d4-59d15dc6d9d7")
 	)
 	(label "SW"
 		(at 354.33 199.39 0)
@@ -11226,6 +11297,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1d4dabb-c1f2-40af-907e-1eafb02e2ce5")
+	)
+	(label "RTC"
+		(at 401.32 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f260d727-7873-4208-8e65-044520fab911")
 	)
 	(label "SWDEN1"
 		(at 379.73 55.88 0)
@@ -16822,6 +16903,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 396.24 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bac9be2-3fc1-46eb-a93d-7e9449d0890c")
+		(property "Reference" "CRTC1"
+			(at 398.78 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 398.78 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 396.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 396.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7995b94e-b7cb-4b79-9812-7c477dceece8")
+		)
+		(pin "1"
+			(uuid "f476637d-9dd6-4a31-aa22-3e4afc1faa1b")
+		)
+		(instances
+			(project "SW-SMART-SIX-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "CRTC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 194.31 194.31 180)
 		(unit 1)
@@ -19748,6 +19899,71 @@
 			(project "SW-SMART-SIX-HIGH"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 396.24 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5396ec4-39b1-41d0-bda8-0d8d1af7f37f")
+		(property "Reference" "#PWR045"
+			(at 396.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 396.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 396.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a8ebe23-a37c-46e9-bf77-a38fd26cbb35")
+		)
+		(instances
+			(project "SW-SMART-SIX-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
