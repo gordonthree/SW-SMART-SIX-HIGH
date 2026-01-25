@@ -6670,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 86.36)
+			(xy 147.32 81.28) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7350,6 +7350,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5392da-76ef-47ce-87e0-6c801e563a0e")
+	)
+	(wire
+		(pts
 			(xy 353.06 199.39) (xy 359.41 199.39)
 		)
 		(stroke
@@ -7627,16 +7637,6 @@
 			(type default)
 		)
 		(uuid "3e1a0567-99d5-470a-8f23-9675395bf808")
-	)
-	(wire
-		(pts
-			(xy 160.02 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f098bba-0846-4762-a7af-d04cf459308a")
 	)
 	(wire
 		(pts
@@ -8407,6 +8407,16 @@
 			(type default)
 		)
 		(uuid "76e1d742-daf2-4189-8f22-a96736c806e4")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e3e152-ece6-4d3f-8479-fcb12026b2af")
 	)
 	(wire
 		(pts
@@ -9690,16 +9700,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 163.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf8e5359-0845-4e4e-9ae9-8368df5b46ca")
-	)
-	(wire
-		(pts
 			(xy 92.71 49.53) (xy 92.71 60.96)
 		)
 		(stroke
@@ -10789,7 +10789,7 @@
 		(uuid "661c5d12-501e-441f-89bd-a8a263b3b959")
 	)
 	(label "CAN_H"
-		(at 160.02 81.28 180)
+		(at 160.02 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15307,7 +15307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H GND L"
+		(property "Value" "G H L"
 			(at 171.45 85.0899 0)
 			(effects
 				(font
@@ -15316,7 +15316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
 			(at 168.91 83.82 0)
 			(effects
 				(font
