@@ -11,4 +11,4 @@
 * Heavy duty screw terminals for power in, up to 6 AWG cable
 * Headers for SWD programming and USART2 serial port
 
-<IMG src="https://github.com/gordonthree/SW-SMART-SIX-HIGH/blob/main/SW-SMART-SIX-HIGH-2201-1649.png?raw=true" width=480>
+<IMG src="https://github.com/gordonthree/SW-SMART-SIX-HIGH/blob/main/SW-SMART-SIX-HIGH.png?raw=true" width=480>
