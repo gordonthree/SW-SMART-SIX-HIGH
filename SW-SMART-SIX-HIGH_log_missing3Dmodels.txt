@@ -1,3 +1,0 @@
-Can not find model defined with enviroment variable (C:\Program Files\KiCad\share\kicad\modules\packages3d :
-C:\Dev\Kicad\share\SamacSys_Parts.3dshapes\VP0265840000G.stp
-[('J4', 'C:\\Dev\\Kicad\\share\\SamacSys_Parts.3dshapes\\VP0265840000G.stp')]
